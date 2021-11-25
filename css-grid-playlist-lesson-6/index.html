@@ -15,14 +15,10 @@
 			grid-gap: 10px;
 			max-width: 960px;
 			margin: 0 auto;
-			/*align-items: start;*/
-			/*justify-items: start;*/
 		}
 		#content div{
 			background: #3bbced;
 			padding: 30px;
-			/*justify-self: start;*/
-			/*align-self: start;*/
 		}
 		#content div:nth-child(even){
 			background: #777;
@@ -30,13 +26,25 @@
 		}
 		.one{
 			align-self: end;
-			justify-self: start;
+			justify-self: end;
 		}
 		.two{
 			align-self: center;
 			justify-self: center;
 		}
 		.three{
+			align-self: start;
+			justify-self: start;
+		}
+		.four {
+			align-self: end;
+			justify-self: start;
+		}
+		.five {
+			align-self: center;
+			justify-self: center;
+		}
+		.six {
 			align-self: start;
 			justify-self: end;
 		}
@@ -46,7 +54,7 @@
 
 	<div id="content">
 
-		<div class="one">1 with content</div>
+		<div class="one">1</div>
 		<div class="two">2</div>
 		<div class="three">3</div>
 		<div class="four">4</div>
